@@ -21,13 +21,13 @@
 * Sebuah DBMS, yaitu MySQL (bisa juga menggunakan DBMS yang lain)
 
 #### Proses Instalasi :
-1. Sediakan sebuah Virtual Machine yang akan digunakan sebagai _server_. Disini digunakan VM Engine dari Google Cloud
+1. Sediakan sebuah Virtual Machine yang akan digunakan sebagai _server_. Disini akan digunakan VM Engine dari Google Cloud.
 2. Lakukan login ke _server_ menggunakan SSH.
 3. Lakukan update terhadap semua aplikasi dan sistem pada server.
-`
+```
 sudo apt update
 sudo apt upgrade
-`
+```
 4. 
 ## Otomatisasi
 
