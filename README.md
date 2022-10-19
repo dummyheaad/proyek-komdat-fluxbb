@@ -43,10 +43,23 @@ sudo mysql -u root -ve "
   CREATE USER fluxadmin IDENTIFIED BY 'inipaswort';
   GRANT ALL PRIVILEGES ON fluxbb.* TO fluxadmin;
 ```
-6. Unduh berkas instalasi **FluxBB** ke Virtual Machine. Versi **FluxBB** yang akan digunakan adalah versi _stable_ yaitu versi `1.5.11`
+6. Unduh berkas instalasi **FluxBB** ke Virtual Machine. Versi **FluxBB** yang akan digunakan adalah versi _stable_ yaitu versi `1.5.11`.
 ```
 sudo wget "https://fluxbb.org/download/releases/1.5.11/fluxbb-1.5.11.tar.gz"
 ```
+7. Ekstrak berkas yang telah diunduh.
+```
+tar -xvzf fluxbb-1.5.11.tar.gz -C .
+```
+8. Pindahkan berkas yang sudah diekstrak ke direktori _webroot_
+```
+sudo mv fluxbb-1.5.11 /var/www/html/fluxbb
+```
+9. Ubah otorisasi kepemilikan ke _user_ `www-data` (_webserver_)
+```
+sudo chown -R www-data:www-data /var/www/html/fluxbb
+```
+
 ## Otomatisasi
 
 ## Cara Pemakaian
