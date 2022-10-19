@@ -16,8 +16,9 @@
 ## Instalasi
 
 #### Kebutuhan Sistem :
-* ffwaf
-* wfawf
+* Sebuah _webserver_
+* PHP versi terbaru
+* Sebuah DBMS, yaitu MySQL (bisa juga menggunakan DBMS yang lain)
 
 #### Proses Instalasi :
 
