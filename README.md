@@ -141,3 +141,7 @@ Jika tidak ada masalah, _reply_ kita akan muncul di _thread_ yang kita _reply_.
 ## Pembahasan
 
 ## Referensi
+1. [Panduan Pembuatan VM dan *Setting Port-forwarding*](https://github.com/auriza/komdat-lab/blob/master/p01.md) - GitHub Pak Auriza
+2. [FluxBB Development Repository](https://github.com/fluxbb/fluxbb) - FluxBB GitHub
+3. [FluxBB Homepage](https://fluxbb.org/) - FluxBB
+4. [Discourse Homepage](https://www.discourse.org/) - Discourse
