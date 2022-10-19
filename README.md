@@ -2,8 +2,8 @@
 
 # ![Logo](http://fluxbb.org/files/images/logo_large.png)
 
-| [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi) |
-| :---------------------------------: | :---------------------: | :-------------------------: | :-------------------------: | :-------------------------------: | :-----------------------: | :---------------------: |
+| [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi) |
+| :---------------------------------: | :---------------------: | :-------------------------: | :-------------------------------: | :-----------------------: | :---------------------: |
 
 | NIM         | Nama                   |
 | ----------- | ---------------------- |
