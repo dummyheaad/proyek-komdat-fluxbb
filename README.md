@@ -130,13 +130,13 @@ Setelah itu masukkan _subject_ dan _message_ dari _thread_ yang ingin kita buat.
 ![Create a New Thread](screenshots/screenshots-newPost.png)
 
 Jika tidak ada masalah, _thread_ kita akan muncul di forum.
-![Thread Created](screenshots/13_newthread.png)
+![Thread Created](screenshots/screenshots-newThread.png)
 
 Untuk membalas suatu _thread_, klik _Post reply_ lalu masukkan _message_ yang ingin kalian tinggalkan.
-![Leave a Reply](screenshots/14_reply.png)
+![Leave a Reply](screenshots/screenshots-replyAttempt.png)
 
 Jika tidak ada masalah, _reply_ kita akan muncul di _thread_ yang kita _reply_.
-![Reply Posted](screenshots/15_replied.png)
+![Reply Posted](screenshots/screenshots-successfulReply.png)
 
 ## Pembahasan
 
