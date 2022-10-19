@@ -114,29 +114,29 @@ Untuk meng-_install_ **Styles** cukup unduh _file_ `css` yang diinginkan lalu pi
 
 ## Cara Pemakaian
 
-Setelah _User_ mengklik alamat web kami maka user akan disuguhkan dengan halaman depan web kami. _User_ pada langkah ini dapat memilih menjadi pembaca atau _Guest_ atau dengan membuat akun untuk menjadi seorang _User_.
-![SignIn](screenshots/screenshots-register.png)
+1. Setelah _User_ mengklik alamat web kami maka user akan disuguhkan dengan halaman depan web kami. _User_ pada langkah ini dapat memilih menjadi pembaca atau _Guest_ atau dengan membuat akun untuk menjadi seorang _User_.
+   ![SignIn](screenshots/screenshots-register.png)
 
-_User_ yang tidak _login_ hanya bisa membaca forum dan tidak dapat membuat postingan baru maupun komentar di suatu postingan. Oleh karena itu kita bisa melakukan _Login_ dengan menggunakan akun yang telah kita buat sebelumnya.
-![Login](screenshots/screenshots-login.png)
+2. User* yang tidak \_login* hanya bisa membaca forum dan tidak dapat membuat postingan baru maupun komentar di suatu postingan. Oleh karena itu kita bisa melakukan _Login_ dengan menggunakan akun yang telah kita buat sebelumnya.
+   ![Login](screenshots/screenshots-login.png)
 
-Setelah login kita bisa membuat _thread_ baru dengan masuk ke forum yang kita inginkan lalu klik _Post new topic_.
-![Logged In](screenshots/screenshots-loggedin.png)
+3. Setelah kita login, kita bisa mulai membuat _Topic_ baru dengan cara memilih forum yang kita inginkan dan memilih _Post New Topic_.
+   ![Logged In](screenshots/screenshots-loggedin.png)
 
-Misal kita masuk ke forum _test forum_.
-![Inside a Forum](screenshots/screenshots-forum.png)
+4. Dengan mengambil contoh kita memilih salah satu _Forum_ yang ada.
+   ![Inside a Forum](screenshots/screenshots-forum.png)
 
-Setelah itu masukkan _subject_ dan _message_ dari _thread_ yang ingin kita buat.
-![Create a New Thread](screenshots/screenshots-newPost.png)
+5. Setelah kita memilih _Forum_ yang kita mau maka kita bisa memasukkan _Topik_ dan _message_ yang kita ingin sampaikan mengenai _Forum_ tersebut.
+   ![Create a New Thread](screenshots/screenshots-newPost.png)
 
-Jika tidak ada masalah, _thread_ kita akan muncul di forum.
-![Thread Created](screenshots/screenshots-newThread.png)
+6. Jika tidak ada masalah, _thread_ kita akan muncul di forum.
+   ![Thread Created](screenshots/screenshots-newThread.png)
 
-Untuk membalas suatu _thread_, klik _Post reply_ lalu masukkan _message_ yang ingin kalian tinggalkan.
-![Leave a Reply](screenshots/screenshots-replyAttempt.png)
+7. Untuk membalas suatu _Post_ yang dibuat oleh orang lain, kita bisa melakukan reply dengan mengklik _Post Reply_ lalu kita bisa memasukkan _Message_ yang ingin kita sampaikan ke _User_ tersebut.
+   ![Leave a Reply](screenshots/screenshots-replyAttempt.png)
 
-Jika tidak ada masalah, _reply_ kita akan muncul di _thread_ yang kita _reply_.
-![Reply Posted](screenshots/screenshots-successfulReply.png)
+8. Jika tidak ada masalah, _reply_ kita akan muncul di _thread_ yang kita _reply_.
+   ![Reply Posted](screenshots/screenshots-successfulReply.png)
 
 ## Pembahasan
 
