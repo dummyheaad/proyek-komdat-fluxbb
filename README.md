@@ -21,7 +21,8 @@
 * Sebuah DBMS, yaitu MySQL (bisa juga menggunakan DBMS yang lain)
 
 #### Proses Instalasi :
-1. Sediakan sebuah Virtual Machine yang akan digunakan sebagai _server_. Disini kami menggunakan VM Engine dari Google Cloud.
+1. Sediakan sebuah Virtual Machine yang akan digunakan sebagai _server_. Disini kami menggunakan sebuah VM Engine Instance dari Google Cloud.
+![image](https://user-images.githubusercontent.com/99653989/196697873-ff9dea01-5ca5-42a9-92a3-d8256b265251.png)
 2. Lakukan login ke _server_ menggunakan SSH.
 3. Lakukan _update_ terhadap semua aplikasi dan sistem pada server.
 ```
