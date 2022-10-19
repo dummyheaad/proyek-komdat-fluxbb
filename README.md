@@ -59,7 +59,7 @@ sudo mv fluxbb-1.5.11 /var/www/html/fluxbb
 ```
 sudo chown -R www-data:www-data /var/www/html/fluxbb
 ```
-10. Buka laman [Named Link] (http://34.128.79.83)
+10. Buka laman [Named Link] (http://34.128.79.83 "FluxBB")
 ## Otomatisasi
 
 ## Cara Pemakaian
