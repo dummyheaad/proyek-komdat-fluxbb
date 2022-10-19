@@ -125,7 +125,7 @@ Untuk meng-_install_ **Styles** cukup unduh _file_ `css` yang diinginkan lalu pi
 1. Setelah _User_ mengklik alamat web kami maka user akan disuguhkan dengan halaman depan web kami. _User_ pada langkah ini dapat memilih menjadi _Guest_ atau dengan membuat akun untuk menjadi seorang _User_.
    ![SignIn](screenshots/screenshots-register.png)
 
-2. User* yang tidak \_login* hanya bisa membaca forum dan tidak dapat membuat postingan baru maupun komentar di suatu postingan. Oleh karena itu kita bisa melakukan _Login_ dengan menggunakan akun yang telah kita buat sebelumnya.
+2. _User_ yang tidak _login_ hanya bisa membaca forum dan tidak dapat membuat postingan baru maupun komentar di suatu postingan. Oleh karena itu, kita bisa melakukan _Login_ dengan menggunakan akun yang telah kita buat sebelumnya.
    ![Login](screenshots/screenshots-login.png)
 
 3. Setelah kita login, kita bisa mulai membuat _Topic_ baru dengan cara memilih forum yang kita inginkan dan memilih _Post New Topic_.
