@@ -16,6 +16,8 @@
 ## Instalasi
 
 #### Kebutuhan Sistem :
+* ffwaf
+* wfawf
 
 #### Proses Instalasi :
 
