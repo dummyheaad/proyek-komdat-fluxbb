@@ -128,10 +128,10 @@ Untuk meng-_install_ **Styles** cukup unduh _file_ `css` yang diinginkan lalu pi
 2. _User_ yang tidak _login_ hanya bisa membaca forum dan tidak dapat membuat postingan baru maupun komentar di suatu postingan. Oleh karena itu, kita bisa melakukan _Login_ dengan menggunakan akun yang telah kita buat sebelumnya.
    ![Login](screenshots/screenshots-login.png)
 
-3. Setelah kita login, kita bisa mulai membuat _Topic_ baru dengan cara memilih forum yang kita inginkan dan memilih _Post New Topic_.
+3. Setelah kita login, kita bisa melihat tampilan yang ada pada halaman depan **FluxBB**.
    ![Logged In](screenshots/screenshots-loggedin.png)
 
-4. Dengan mengambil contoh kita memilih salah satu _Forum_ yang ada.
+4. Dengan mengambil contoh kita bisa memilih salah satu _Forum_ yang ada. Setelah itu, kita bisa mulai membuat _Topic_ baru dengan cara memilih forum yang kita inginkan dan memilih _Post New Topic_.
    ![Inside a Forum](screenshots/screenshots-forum.png)
 
 5. Setelah kita memilih _Forum_ yang kita mau maka kita bisa memasukkan _Topik_ dan _message_ yang kita ingin sampaikan mengenai _Forum_ tersebut.
