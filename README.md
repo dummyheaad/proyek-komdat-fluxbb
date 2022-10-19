@@ -21,14 +21,30 @@
 * Sebuah DBMS, yaitu MySQL (bisa juga menggunakan DBMS yang lain)
 
 #### Proses Instalasi :
-1. Sediakan sebuah Virtual Machine yang akan digunakan sebagai _server_. Disini akan digunakan VM Engine dari Google Cloud.
+1. Sediakan sebuah Virtual Machine yang akan digunakan sebagai _server_. Disini kami menggunakan VM Engine dari Google Cloud.
 2. Lakukan login ke _server_ menggunakan SSH.
-3. Lakukan update terhadap semua aplikasi dan sistem pada server.
+3. Lakukan _update_ terhadap semua aplikasi dan sistem pada server.
 ```
 sudo apt update
 sudo apt upgrade
 ```
-4. 
+4. _Install_ kebutuhan sistem, sebagai contoh di sini kami menggunakan **Apache** sebagai _webserver_ dan **MySQL** sebagai DBMS.
+```
+sudo apt install apache2 php mysql-server
+sudo apt install php-mysql php-gd php-mbstring php-xml php-curl
+sudo service apache2 restart
+```
+5. Setelah kebutuhan sistem sudah ter-_install_, sebuah _database_ dan _user_ dibuat untuk aplikasi.
+```
+sudo mysql -u root -ve "
+  CREATE DATABASE fluxbb;
+  CREATE USER fluxadmin IDENTIFIED BY 'inipaswort';
+  GRANT ALL PRIVILEGES ON fluxbb.* TO fluxadmin;
+```
+6. Unduh berkas instalasi **FluxBB** ke Virtual Machine. Versi **FluxBB** yang akan digunakan adalah versi _stable_ yaitu versi `1.5.11`
+```
+sudo wget "https://fluxbb.org/download/releases/1.5.11/fluxbb-1.5.11.tar.gz"
+```
 ## Otomatisasi
 
 ## Cara Pemakaian
