@@ -28,6 +28,7 @@
 1. Sediakan sebuah Virtual Machine yang akan digunakan sebagai _server_. Disini kami menggunakan sebuah VM Engine Instance dari Google Cloud.
    ![image](https://user-images.githubusercontent.com/99653989/196697873-ff9dea01-5ca5-42a9-92a3-d8256b265251.png)
 2. Lakukan login ke _server_ menggunakan SSH.
+   ![image](https://user-images.githubusercontent.com/99653989/196698169-6009ff6b-2cd9-4946-8e0a-8853f2aaeb8a.png)
 3. Lakukan _update_ terhadap semua aplikasi dan sistem pada server.
 
 ```
@@ -52,13 +53,54 @@ sudo mysql -u root -ve "
   GRANT ALL PRIVILEGES ON fluxbb.* TO fluxadmin;
 ```
 
-6. Unduh berkas instalasi **FluxBB** ke Virtual Machine. Versi **FluxBB** yang akan digunakan adalah versi _stable_ yaitu versi `1.5.11`
+6. Unduh berkas instalasi **FluxBB** ke Virtual Machine. Versi **FluxBB** yang akan digunakan adalah versi _stable_ yaitu versi `1.5.11`.
 
 ```
 sudo wget "https://fluxbb.org/download/releases/1.5.11/fluxbb-1.5.11.tar.gz"
 ```
 
-## Otomatisasi
+7. Ekstrak berkas yang telah diunduh.
+
+```
+tar -xvzf fluxbb-1.5.11.tar.gz -C .
+```
+
+8. Pindahkan berkas yang sudah diekstrak ke direktori _webroot_
+
+```
+sudo mv fluxbb-1.5.11 /var/www/html/fluxbb
+```
+
+9. Ubah otorisasi kepemilikan ke _user_ `www-data` (_webserver_)
+
+```
+sudo chown -R www-data:www-data /var/www/html/fluxbb
+```
+
+10. Buka laman [FluxBB](http://34.128.79.83 "FluxBB") untuk melanjutkan proses instalasi **FluxBB**.
+
+## Konfigurasi
+
+Untuk meningkatkan kinerja aplikasi, kita dapat melakukan hal-hal berikut seperti yang tercantum di [laman pengembangan **FluxBB**](https://github.com/fluxbb/fluxbb#recommendations).
+
+- Gunakan PHP _accelerator_ seperti **APC** atau **XCache** untuk mempercepat waktu eksekusi kode `PHP`.
+- Pastikan PHP sudah ter-_install_ modul **zlib** agar **FluxBB** dapat membuat output `gzip`.
+
+Ada beberapa modifikasi yang dapat ditambahkan untuk **FluxBB**, yaitu [**Styles**](#styles), [**Language Packs**](#language-packs), dan [**Plugins**](#plugins).
+
+### Styles
+
+**Styles** berfungsi untuk mengubah tampilan atau tema pada aplikasi forum kita, _package-package_ untuk modifikasi **Styles** ini dapat diunduh dari [laman _repository_ **FluxBB**](http://fluxbb.org/resources/styles/).
+
+Untuk meng-_install_ **Styles** cukup unduh _file_ `css` yang diinginkan lalu pindahkan ke folder `/var/www/html/fluxbb/style `.
+
+### Language Packs
+
+**Language Packs** berfungsi untuk menambah opsi bahasa yang bisa digunakan pada aplikasi forum kita, **Language Packs** dapat diunduh dari [laman _repository_ **FluxBB**](http://fluxbb.org/resources/translations/).
+
+### Plugins
+
+**Plugins** di **FluxBB** hanya bisa menambahkan fitur untuk _administrator_ (dan _moderator_ untuk beberapa **Plugins**) saja, **Plugins** berguna untuk menyederhanakan _task administrator_ atau menambah fitur yang tidak bisa disediakan oleh **FluxBB** (karena filosofinya). **Plugins** dapat diunduh dari [laman _repository_ **FluxBB**](https://github.com/fluxbb/plugins) atau bisa juga kita buat sendiri, _template_-nya dapat diakses di [laman _website_ **FluxBB**](https://fluxbb.org/docs/v1.5/plugins). **Plugins** yang dapat digunakan oleh _administrator_ diawali dengan `AP`, sedangkan yang dapat digunakan oleh _administrator_ dan _moderator_ diawali dengan `AMP`.
 
 ## Cara Pemakaian
 
