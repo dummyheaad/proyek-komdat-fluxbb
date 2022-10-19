@@ -2,8 +2,8 @@
 
 # ![Logo](http://fluxbb.org/files/images/logo_large.png)
 
-| [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi) |
-| :---------------------------------: | :---------------------: | :-------------------------: | :-------------------------------: | :-----------------------: | :---------------------: |
+| [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi) |
+| :---------------------------------: | :---------------------: | :-------------------------: | :-------------------------: | :-------------------------------: | :-----------------------: | :---------------------: |
 
 | NIM         | Nama                   |
 | ----------- | ---------------------- |
@@ -78,15 +78,17 @@ sudo chown -R www-data:www-data /var/www/html/fluxbb
 ```
 
 10. Buka laman [FluxBB](http://34.128.79.83 "FluxBB") untuk melanjutkan proses instalasi **FluxBB**.
-![image](https://user-images.githubusercontent.com/99653989/196703305-1aae9dfc-7645-4fea-aa3f-aa5aa2732708.png)
+    ![image](https://user-images.githubusercontent.com/99653989/196703305-1aae9dfc-7645-4fea-aa3f-aa5aa2732708.png)
 11. Jika tidak ada masalah maka akan muncul pemberitahuan seperti di bawah ini yang menandakan bahwa **FluxBB** telah berhasil di-_install_.
-![image](https://user-images.githubusercontent.com/99653989/196703781-907a2e1b-c3df-463c-8ba2-6aec23346785.png)
+    ![image](https://user-images.githubusercontent.com/99653989/196703781-907a2e1b-c3df-463c-8ba2-6aec23346785.png)
 12. Sekarang halaman _index_ dari forum **FluxBB** sudah bisa diakses.
-![image](https://user-images.githubusercontent.com/99653989/196704056-14f939a7-0d4b-4a62-9eb1-d4673908fc52.png)
+    ![image](https://user-images.githubusercontent.com/99653989/196704056-14f939a7-0d4b-4a62-9eb1-d4673908fc52.png)
 13. Terakhir file instalasi dihapus untuk alasan keamanan.
+
 ```
 sudo rm -rf /var/www/html/fluxbb/install.php
 ```
+
 ## Konfigurasi
 
 Untuk meningkatkan kinerja aplikasi, kita dapat melakukan hal-hal berikut seperti yang tercantum di [laman pengembangan **FluxBB**](https://github.com/fluxbb/fluxbb#recommendations).
@@ -112,8 +114,30 @@ Untuk meng-_install_ **Styles** cukup unduh _file_ `css` yang diinginkan lalu pi
 
 ## Cara Pemakaian
 
-## Pembahasan
+Setelah _User_ mengklik alamat web kami maka user akan disuguhkan dengan halaman depan web kami. _User_ pada langkah ini dapat memilih menjadi pembaca atau _Guest_ atau dengan membuat akun untuk menjadi seorang _User_.
+![SignIn](screenshots/screenshots-register.png)
 
-# Referensi
+_User_ yang tidak _login_ hanya bisa membaca forum dan tidak dapat membuat postingan baru maupun komentar di suatu postingan. Oleh karena itu kita bisa melakukan _Login_ dengan menggunakan akun yang telah kita buat sebelumnya.
+![Login](screenshots/screenshots-login.png)
+
+Setelah login kita bisa membuat _thread_ baru dengan masuk ke forum yang kita inginkan lalu klik _Post new topic_.
+![Logged In](screenshots/screenshots-loggedin.png)
+
+Misal kita masuk ke forum _test forum_.
+![Inside a Forum](screenshots/screenshots-forum.png)
+
+Setelah itu masukkan _subject_ dan _message_ dari _thread_ yang ingin kita buat.
+![Create a New Thread](screenshots/screenshots-newPost.png)
+
+Jika tidak ada masalah, _thread_ kita akan muncul di forum.
+![Thread Created](screenshots/13_newthread.png)
+
+Untuk membalas suatu _thread_, klik _Post reply_ lalu masukkan _message_ yang ingin kalian tinggalkan.
+![Leave a Reply](screenshots/14_reply.png)
+
+Jika tidak ada masalah, _reply_ kita akan muncul di _thread_ yang kita _reply_.
+![Reply Posted](screenshots/15_replied.png)
+
+## Pembahasan
 
 ## Referensi
