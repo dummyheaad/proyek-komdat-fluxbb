@@ -2,8 +2,8 @@
 
 # ![Logo](http://fluxbb.org/files/images/logo_large.png)
 
-| [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi) |
-| :---------------------------------: | :---------------------: | :-------------------------: | :-------------------------: | :-------------------------------: | :-----------------------: | :---------------------: |
+| [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi) |
+| :---------------------------------: | :---------------------: | :-------------------------: | :-------------------------------: | :-----------------------: | :---------------------: |
 
 | NIM         | Nama                   |
 | ----------- | ---------------------- |
@@ -141,3 +141,7 @@ Untuk meng-_install_ **Styles** cukup unduh _file_ `css` yang diinginkan lalu pi
 ## Pembahasan
 
 ## Referensi
+1. [Panduan Pembuatan VM dan *Setting Port-forwarding*](https://github.com/auriza/komdat-lab/blob/master/p01.md) - GitHub Pak Auriza
+2. [FluxBB Development Repository](https://github.com/fluxbb/fluxbb) - FluxBB GitHub
+3. [FluxBB Homepage](https://fluxbb.org/) - FluxBB
+4. [Discourse Homepage](https://www.discourse.org/) - Discourse
