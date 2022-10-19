@@ -60,7 +60,15 @@ sudo mv fluxbb-1.5.11 /var/www/html/fluxbb
 sudo chown -R www-data:www-data /var/www/html/fluxbb
 ```
 10. Buka laman [FluxBB](http://34.128.79.83 "FluxBB") untuk melanjutkan proses instalasi **FluxBB**.
-
+![image](https://user-images.githubusercontent.com/99653989/196703305-1aae9dfc-7645-4fea-aa3f-aa5aa2732708.png)
+11. Jika tidak ada masalah maka akan muncul pemberitahuan seperti di bawah ini yang menandakan bahwa **FluxBB** telah berhasil di-_install_.
+![image](https://user-images.githubusercontent.com/99653989/196703781-907a2e1b-c3df-463c-8ba2-6aec23346785.png)
+12. Sekarang halaman _index_ dari forum **FluxBB** sudah bisa diakses.
+![image](https://user-images.githubusercontent.com/99653989/196704056-14f939a7-0d4b-4a62-9eb1-d4673908fc52.png)
+13. Terakhir file instalasi dihapus untuk alasan keamanan.
+```
+sudo rm -rf /var/www/html/fluxbb/install.php
+```
 ## Konfigurasi
 Untuk meningkatkan kinerja aplikasi, kita dapat melakukan hal-hal berikut seperti yang tercantum di [laman pengembangan **FluxBB**](https://github.com/fluxbb/fluxbb#recommendations).
 - Gunakan PHP *accelerator* seperti **APC** atau **XCache** untuk mempercepat waktu eksekusi kode `PHP`.
