@@ -13,9 +13,13 @@
 
 ## Sekilas Tentang
 
+[`^ kembali ke atas ^`](#)
+
 **FluxBB** adalah aplikasi forum _open-source_ yang dirilis dibawah GNU General Public Licence dan dapat diunduh dengan gratis. **FluxBB** dirancang sebagai alternatif yang lebih ringan dan cepat untuk beberapa aplikasi forum tradisional yang berat dengan mengurangi fitur-fitur yang "tidak terlalu penting" namun tetap memiliki fitur-fitur yang esensial untuk sebuah aplikasi forum. **FluxBB** mudah digunakan dan sudah memiliki _track record_ yang baik untuk kestabilan dan keamanan sehingga bisa menjadi pilihan aplikasi forum yang ideal untuk website Anda.
 
 ## Instalasi
+
+[`^ kembali ke atas ^`](#)
 
 #### Kebutuhan Sistem :
 
@@ -91,6 +95,8 @@ sudo rm -rf /var/www/html/fluxbb/install.php
 
 ## Konfigurasi
 
+[`^ kembali ke atas ^`](#)
+
 Untuk meningkatkan kinerja aplikasi, kita dapat melakukan hal-hal berikut seperti yang tercantum di [laman pengembangan **FluxBB**](https://github.com/fluxbb/fluxbb#recommendations).
 
 - Gunakan PHP _accelerator_ seperti **APC** atau **XCache** untuk mempercepat waktu eksekusi kode `PHP`.
@@ -113,6 +119,8 @@ Untuk meng-_install_ **Styles** cukup unduh _file_ `css` yang diinginkan lalu pi
 **Plugins** di **FluxBB** hanya bisa menambahkan fitur untuk _administrator_ (dan _moderator_ untuk beberapa **Plugins**) saja, **Plugins** berguna untuk menyederhanakan _task administrator_ atau menambah fitur yang tidak bisa disediakan oleh **FluxBB** (karena filosofinya). **Plugins** dapat diunduh dari [laman _repository_ **FluxBB**](https://github.com/fluxbb/plugins) atau bisa juga kita buat sendiri, _template_-nya dapat diakses di [laman _website_ **FluxBB**](https://fluxbb.org/docs/v1.5/plugins). **Plugins** yang dapat digunakan oleh _administrator_ diawali dengan `AP`, sedangkan yang dapat digunakan oleh _administrator_ dan _moderator_ diawali dengan `AMP`.
 
 ## Cara Pemakaian
+
+[`^ kembali ke atas ^`](#)
 
 1. Setelah _User_ mengklik alamat web kami maka user akan disuguhkan dengan halaman depan web kami. _User_ pada langkah ini dapat memilih menjadi pembaca atau _Guest_ atau dengan membuat akun untuk menjadi seorang _User_.
    ![SignIn](screenshots/screenshots-register.png)
@@ -139,6 +147,8 @@ Untuk meng-_install_ **Styles** cukup unduh _file_ `css` yang diinginkan lalu pi
    ![Reply Posted](screenshots/screenshots-successfulReply.png)
 
 ## Pembahasan
+
+[`^ kembali ke atas ^`](#)
 
 **FluxBB** merupakan aplikasi diskusi forum yang ditulis dalam bahasa pemrograman `PHP` yang efisien, dinamis, serta didukung oleh banyak _database_ dan _web server_.
 Aplikasi forum ini memiliki kelebihan antara lain:
@@ -169,6 +179,8 @@ Contoh aplikasi forum lainnya adalah **Discourse**, aplikasi ini ditulis dalam b
 - Instalasi **FluxBB** lebih mudah karena berbasis bahasa `PHP`, instalasi **Discourse** lebih rumit dan memerlukan lebih banyak _requirements_ karena berbasis `Ruby` dan `JS`.
 
 ## Referensi
+
+[`^ kembali ke atas ^`](#)
 
 1. [Panduan Pembuatan VM dan _Setting Port-forwarding_](https://github.com/auriza/komdat-lab/blob/master/p01.md) - GitHub Pak Auriza
 2. [FluxBB Development Repository](https://github.com/fluxbb/fluxbb) - FluxBB GitHub
