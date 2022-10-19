@@ -24,6 +24,7 @@
 1. Sediakan sebuah Virtual Machine yang akan digunakan sebagai _server_. Disini kami menggunakan sebuah VM Engine Instance dari Google Cloud.
 ![image](https://user-images.githubusercontent.com/99653989/196697873-ff9dea01-5ca5-42a9-92a3-d8256b265251.png)
 2. Lakukan login ke _server_ menggunakan SSH.
+![image](https://user-images.githubusercontent.com/99653989/196698169-6009ff6b-2cd9-4946-8e0a-8853f2aaeb8a.png)
 3. Lakukan _update_ terhadap semua aplikasi dan sistem pada server.
 ```
 sudo apt update
